@@ -45,7 +45,7 @@ const officialClients: Array<Client> = [
     clientType: ClientType.Official,
     deviceTypes: [DeviceType.Desktop],
     licenseType: LicenseType.OpenSource,
-    platforms: [Platform.Desktop],
+    platforms: [Platform.Linux, Platform.MacOS, Platform.Windows],
     primaryLinks: [
       {
         id: 'flathub',
