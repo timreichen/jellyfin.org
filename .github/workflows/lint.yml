@@ -28,6 +28,9 @@ jobs:
       - name: Run eslint
         run: npm run lint
 
+      - name: Run prettier
+        run: npm run prettier
+
   lint:
     name: Lint Markdown
     runs-on: ubuntu-latest
